@@ -31,7 +31,7 @@ job "prometheus" {
         ports = ["http"]
       }
       artifact {
-        source      = "github.com/gastrogee/nomad-demo/prometheus"
+        source      = "github.com/d3r/monitoring-nomad/config/prometheus"
         destination = "local/"
       }
       resources {
